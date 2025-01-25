@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "pnpm drizzle-kit generate:pg --config drizzle.config.ts",
+    "db:push": "pnpm drizzle-kit push:pg --config drizzle.config.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.38.4",
