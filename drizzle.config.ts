@@ -8,7 +8,7 @@ const drizzleConfig = {
   driver: undefined,
   dbCredentials: {
     host: "localhost",
-    port: 5432,
+    port: 54325,
     user: "postgres",
     password: "postgres",
     database: "postgres",
