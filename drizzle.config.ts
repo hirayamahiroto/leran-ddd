@@ -5,10 +5,9 @@ const drizzleConfig = {
   out: "./src/database/migrations",
   dialect: "postgresql",
   breakpoints: true,
-  driver: undefined,
   dbCredentials: {
     host: "localhost",
-    port: 54325,
+    port: 54444,
     user: "postgres",
     password: "postgres",
     database: "postgres",
