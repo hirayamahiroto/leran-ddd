@@ -15,13 +15,13 @@ export class Menu {
   }
 
   static create(props: MenuCreateProps): Menu {
-    return new Menu(props.id, MenuName.create(props.name), MenuPrice.create(props.price));
+    return new Menu(props.id, props.name, props.price);
   }
 }
 
 // 型定義
 export type MenuCreateProps = {
   id: number;
-  name: string;
-  price: number;
+  name: MenuName;
+  price: MenuPrice;
 };
