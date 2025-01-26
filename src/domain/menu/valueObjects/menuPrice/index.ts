@@ -19,8 +19,4 @@ export class MenuPrice {
       throw new Error("価格は整数である必要があります");
     }
   }
-
-  equals(other: MenuPrice): boolean {
-    return this._value === other.value;
-  }
 }

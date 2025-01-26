@@ -19,8 +19,4 @@ export class MenuName {
       throw new Error("メニュー名は100文字以内である必要があります");
     }
   }
-
-  equals(other: MenuName): boolean {
-    return this._value === other.value;
-  }
 }
