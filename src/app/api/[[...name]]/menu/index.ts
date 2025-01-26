@@ -1,5 +1,5 @@
-import { CreateMenuUseCase } from "./../../useCase/createMenu";
-import { MenuRepository } from "./../../infra/repository/menu";
+import { CreateMenuUseCase } from "../../../../useCase/createMenu";
+import { MenuRepository } from "../../../../infra/repository/menu";
 export async function POST(req: Request) {
   try {
     const { name, price } = await req.json();
