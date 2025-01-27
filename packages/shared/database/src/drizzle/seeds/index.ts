@@ -1,4 +1,4 @@
-import database from "../index";
+import database from "../../../index";
 import { customers, menuItems, orders, bills } from "../schema";
 
 async function main() {
