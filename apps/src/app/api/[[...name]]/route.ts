@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { POST as createMenuHandler } from "./menu/index";
+import { POST as createMenuHandler } from "./menu/route";
 
 // APIハンドラーの型定義
 type ApiHandler = {

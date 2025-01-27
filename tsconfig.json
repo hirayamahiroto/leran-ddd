@@ -18,11 +18,14 @@
         "name": "next"
       }
     ],
+    "outDir": "./dist",
+    "baseUrl": ".",
     "paths": {
-      "baseUrl": ["."],
-      "@/*": ["./app/*"],
+      "@/*": ["./apps/*"],
       "@packages/*": ["./packages/*"],
-      "@shared/*": ["./packages/shared/*"]
+      "@packages/core/*": ["./packages/core/*"],
+      "@packages/infra/*": ["./packages/infra/*"],
+      "@packages/shared/*": ["./packages/shared/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
