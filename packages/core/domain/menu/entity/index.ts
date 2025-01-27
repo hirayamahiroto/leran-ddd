@@ -1,5 +1,6 @@
-import { MenuName } from "../valueObjects/menuName";
-import { MenuPrice } from "../valueObjects/menuPrice";
+// import { MenuName } from "../valueObjects/menuName";
+import { MenuName } from "@packages/core/domain/menu/valueObjects/menuName";
+import { MenuPrice } from "@packages/core/domain/menu/valueObjects/menuPrice";
 
 export class Menu {
   private _name: MenuName;
