@@ -1,4 +1,4 @@
-import { CreateMenuUseCase } from "../../../../useCase/createMenu";
+import { CreateMenuUseCase } from "../../../../core/useCase/createMenu";
 import { MenuRepository } from "../../../../infra/repository/menu";
 export async function POST(req: Request) {
   try {

@@ -1,8 +1,8 @@
-import { MenuRepository } from "../../infra/repository/menu";
-import { MenuCreateProps } from "../../domain/menu/entity";
-import { Menu } from "../../domain/menu/entity";
-import { MenuName } from "../../domain/menu/valueObjects/menuName";
-import { MenuPrice } from "../../domain/menu/valueObjects/menuPrice";
+import { MenuRepository } from "../../../infra/repository/menu";
+import { MenuCreateProps } from "./../../domain/menu/entity";
+import { Menu } from "./../../domain/menu/entity";
+import { MenuName } from "./../../domain/menu/valueObjects/menuName";
+import { MenuPrice } from "./../../domain/menu/valueObjects/menuPrice";
 
 class CreateMenuUseCase {
   constructor(private readonly menuRepository: MenuRepository) {}
