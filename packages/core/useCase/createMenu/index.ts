@@ -1,4 +1,4 @@
-import { MenuRepository } from "../../infra/repository/menu";
+import { MenuRepository } from "../../../infra/repository/menu";
 import { MenuCreateProps } from "../../domain/menu/entity";
 import { Menu } from "../../domain/menu/entity";
 import { MenuName } from "../../domain/menu/valueObjects/menuName";

@@ -1,5 +1,5 @@
-import { IMenuRepository } from "../../../domain/menu/repositories/IMenuRepository";
-import { Menu } from "../../../domain/menu/entity";
+import { IMenuRepository } from "../../../core/domain/menu/repositories/IMenuRepository";
+import { Menu } from "../../../core/domain/menu/entity";
 
 export class MenuRepository implements IMenuRepository {
   constructor() {}

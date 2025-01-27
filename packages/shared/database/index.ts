@@ -1,6 +1,6 @@
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
-import * as schema from "./schema";
+import * as schema from "./src/drizzle/schema";
 
 const connectionString = "postgres://postgres:postgres@localhost:54444/postgres";
 const client = postgres(connectionString);
